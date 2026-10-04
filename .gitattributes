@@ -1,0 +1,17 @@
+# Store and check out text files with LF on every OS (team is on macOS and Windows)
+* text=auto eol=lf
+
+# Windows scripts need CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files: never convert or diff
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.pdf binary
+*.jar binary
+*.ttf binary
+*.otf binary

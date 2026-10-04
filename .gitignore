@@ -1,0 +1,58 @@
+# ---------- General ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+node_modules/
+
+# ---------- Secrets ----------
+# This repo is public: share these privately, never commit them.
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+keystore.properties
+*.p8
+*.p12
+*.cer
+*.mobileprovision
+GoogleService-Info.plist
+google-services.json
+
+# ---------- iOS / Xcode ----------
+xcuserdata/
+*.xcuserstate
+DerivedData/
+.build/
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.xcarchive
+
+# ---------- Android / Gradle ----------
+.gradle/
+.kotlin/
+build/
+local.properties
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# ---------- fastlane (ios/fastlane, android/fastlane) ----------
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots/**/*.png
+**/fastlane/test_output/
+.bundle/
+vendor/bundle/
+
+# ---------- Supabase ----------
+supabase/.branches/
+supabase/.temp/
